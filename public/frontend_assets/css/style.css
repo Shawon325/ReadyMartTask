@@ -1,0 +1,144 @@
+/*!
+ * Content Management Css
+ */
+body {
+  padding-top: 56px;
+}
+
+.section-1 {
+	padding: 0px 18px 20px 15px;
+  border-right: 1px solid #ddd;
+  margin-top: 20px;
+}
+
+.section-2 {
+	padding-top: 20px;
+}
+
+.section-2-sm {
+	    padding: 10px 15px 10px 15px;
+}
+
+.section-1-lg{
+	padding: 0px 10px 0px 10px;
+}
+
+.section-1-lg .img-fluid{
+  height: 255px;
+}
+
+.section-1-sm{
+	padding: 0px 10px 10px 10px;
+}
+
+footer {
+	margin-top: 20px;
+}
+
+
+/*Section One*/
+
+.section-1-lg .main_image {
+  position: relative;
+}
+
+.section-1-sm .main_image {
+  position: relative;
+}
+
+.section-1-lg .main_image .overlay_image {
+  position: absolute;
+  bottom: 9%;
+  right: 0%;
+}
+
+.section-1-lg .main_image .overlay_image img {
+	width: 50px;
+}
+
+.section-1-sm .main_image .overlay_image {
+  position: absolute;
+  bottom: 34%;
+  right: 0%;
+}
+
+.section-1-sm .main_image .overlay_image img {
+  width: 20px;
+}
+
+.section-1-sm .main_image .img-fluid {
+  height: 90px;
+}
+/*Section Two*/
+
+.section-2-lg .main_image {
+  position: relative;
+}
+
+.section-2-sm .main_image {
+  position: relative;
+}
+
+.page_details_section .main_image {
+  position: relative;
+}
+
+.page_details_section .main_image .overlay_image {
+  position: absolute;
+  bottom: 0%;
+  right: 0%;
+}
+
+.page_details_section .main_image .overlay_image img {
+  width: 100px;
+}
+
+.section-2-lg .main_image .overlay_image {
+  position: absolute;
+  bottom: 10%;
+  right: 0%;
+}
+
+.section-2-lg .main_image .overlay_image img {
+  width: 50px;
+}
+
+.section-2-sm .main_image .overlay_image {
+  position: absolute;
+  bottom: 34%;
+  right: 0%;
+}
+
+.section-2-sm .main_image .overlay_image img {
+  width: 20px;
+}
+
+.section-2-sm .main_image .img-fluid {
+  height: 90px;
+}
+
+.img-fluid {
+  width: 100%
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #414141;
+    text-decoration: none;
+}
+
+.share_now {
+    list-style: none;
+    display: inline-flex;
+    float: right;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+.share_now li {
+      margin-left: 10px;
+}
